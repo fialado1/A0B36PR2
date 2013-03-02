@@ -4,16 +4,24 @@
  */
 package the.unexpected.adventure;
 
+import javax.swing.SwingUtilities;
+
 /**
  *
  * @author Dominik
  */
-public class TheUnexpectedAdventure {
+public class TheUnexpectedAdventure{
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new GUI();
+            }
+        });
     }
+
+    
+
 }
