@@ -6,9 +6,9 @@ A.K.A. semestrální práce pro předmět **"Programování 2 - A0B36PR2"**, kte
 Naprogramujte hru - adventuru, přičemž  součástí bude engine, která se bude odehrávat v budově o několika přístupných místnostech. K dispozici budou různé předměty ukryté v místnostech, které budou muset vhodně posbírat a zkombinovat pro splnění cíle (útěku). Navíc bude možnost hru uložit a poté ji nahrát.
 ##Pravidla hry
 Cílem hry, respektive první kapitoly, je dostat se na schodiště, odkud vede cesta do dalšího patra – druhá kapitola. K tomu je zapotřebí nejprve splnit tyto podúkoly: 
-1) odblokování dveří vedoucí z toalety na chodbu díky použití předmětů, které jsou k nalezení, ve správném sledu
-2) zkombinovat předmět tak, aby vznikla funkční mpTrojka a použít ji
-3) zkombinovat předmět tak, aby vznikl šperhák a použít jej k odblokování dveří vedoucích na schodiště.
+* odblokování dveří vedoucí z toalety na chodbu díky použití předmětů, které jsou k nalezení, ve správném sledu
+* zkombinovat předmět tak, aby vznikla funkční mpTrojka a použít ji
+* zkombinovat předmět tak, aby vznikl šperhák a použít jej k odblokování dveří vedoucích na schodiště.
 
 ##Vlastnosti enginu
 Momentálně je engine v takové fázi vypracování, že umožňuje:
