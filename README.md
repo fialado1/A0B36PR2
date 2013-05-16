@@ -2,13 +2,21 @@
 ========
 A.K.A. semestrální práce pro předmět **"Programování 2 - A0B36PR2"**, který je vyučován na [FEL ČVUT](http://www.fel.cvut.cz).
 
-##Obecné info
+##Zadání
+Naprogramujte hru - adventuru, přičemž  součástí bude engine, která se bude odehrávat v budově o několika přístupných místnostech. K dispozici budou různé předměty ukryté v místnostech, které budou muset vhodně posbírat a zkombinovat pro splnění cíle (útěku). Navíc bude možnost hru uložit a poté ji nahrát.
+##Pravidla hry
+Cílem hry, respektive první kapitoly, je dostat se na schodiště, odkud vede cesta do dalšího patra – druhá kapitola. K tomu je zapotřebí nejprve splnit tyto podúkoly: 
+1) odblokování dveří vedoucí z toalety na chodbu díky použití předmětů, které jsou k nalezení, ve správném sledu
+2) zkombinovat předmět tak, aby vznikla funkční mpTrojka a použít ji
+3) zkombinovat předmět tak, aby vznikl šperhák a použít jej k odblokování dveří vedoucích na schodiště.
 
-* Cílem tohoto projektu bude zejména přidání grafické podoby programu - hře, který jsem byl nucen vytvořit jako semestrální práci
-pro předmět A0B36PR1 z předcházejícího semestru.
-* Jak už název napovídá, jedná o adventuru, avšak okořenil jsem ji trochou RPG prvky, aby byla (pro mě) zábavnější.
-* Cílem tohoto projektu je vytvoření programu - hry, který vyhový [podmínkám](https://eduweb.fel.cvut.cz/courses/A0B36PR2/classification/semestralka), které byly stanoveny garantem výše uvedeného předmětu.
-* Tato hra bude adventurou obohacou o RPG prvky, aby byla (pro mě) zábavnější. 
+##Vlastnosti enginu
+Momentálně je engine v takové fázi vypracování, že umožňuje:
+načtení obrázku použitých pro tvorbu vzhledu a ostatních potřebných dat, a tím reprezentaci „světa“
+práci s hudbou hrající v pozadí
+načítání a ukládání hry
+##Ovládání
+Program se primárně ovládá myší, kdy hráč pomocí kliknutí na vhodný komponent vyvolá danou akci, avšak některé je možné vyvolat pomocí klávesnice (I - otevření/zavření inventáře a informační tabulky, atd...). Klávesnice je ještě třeba při zadávání textu do textových polích (jméno hráčovy postavy, název ukládané hry).
 
 ##Způsob řešení
 Programovat budu pomocí jazyka JAVA a snahou bude, aby to bylo zcela a správně objektově.
